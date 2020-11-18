@@ -1,4 +1,4 @@
-Written by Qingchuan Yang杨晴川 for the PingCAP interview. 
+Written by Qingchuan Yang(杨晴川) for the PingCAP interview. 
 The idea is as follows.
 Each time we load 1GB of the file into memory. (We can safely use malloc(), because the max size that malloc() allows is much greater than 1GB. I can't find the advantage of loading more bytes either.)
 We first find the first string and save it in [std::string first_string].  
